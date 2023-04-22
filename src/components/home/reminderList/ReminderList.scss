@@ -1,0 +1,36 @@
+.reminder-list {
+  margin-top: 2rem;
+  list-style: none;
+  width: 100%;
+
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+
+    span {
+      font-size: 1.5rem;
+    }
+
+    button {
+      background-color: #ff4136;
+      color: #fff;
+      border: none;
+      border-radius: 0.5rem;
+      padding: 0.5rem 1rem;
+      font-size: 1.5rem;
+      cursor: pointer;
+      transition: background-color 0.2s;
+
+      &:hover {
+        background-color: #dc2f26;
+      }
+    }
+  }
+}
